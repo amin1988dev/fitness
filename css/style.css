@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+   
+}
+nav,ul{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+nav a{
+    text-decoration: none;
+}
+nav li {
+    list-style: none;  /*remove bullet point */
+    margin-right: 15px;
+    margin-bottom: 2px;
+
+    
+}
+.list-color{
+    color: aliceblue;
+}
+img{
+ 
+    height: 700px;
+}

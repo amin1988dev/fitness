@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Health</title>
+    <script>
+        // Importa il contenuto di header.html e inseriscilo nel div con id "header"
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("header.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("header").innerHTML = data;
+                });
+        });
+    </script>
+</head>
+<body>
+    <header id="header">
+      
+    </header>
+    <main>
+        <h4>Men's Health plan</h4>
+       <img src="img/men.jpg" alt=""style="width: 900px;height: 500px;">
+    </main>
+</body>
+</html>
